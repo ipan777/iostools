@@ -7,11 +7,11 @@
 hostname = app.moutai519.com.cn
 
 [rewrite_local]
-https://app.moutai519.com.cn/xhr/front/user/info url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js
+https://app.moutai519.com.cn/xhr/front/user/info url script-response-body https://raw.githubusercontent.com/ipan777/crack-iOS-app/main/imt.js
 
 [task_local]
 # 茅台自动预约
-0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js, tag=i茅台自动预约, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/ipan777/crack-iOS-app/main/imt.js, tag=i茅台自动预约, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true
 ```
 ******************************************/
 var $ = new Env('i茅台'),service = $.http
@@ -24,7 +24,7 @@ var maotai = new Maotai()
 var isClearShopDir = $.getdata('imaotai__config__clearshopdir') || false // 是否清理店铺字典
 var province = $.getdata('imaotai__config__province') || '' // 省份
 var city = $.getdata('imaotai__config__city') || '' // 城市
-var itemCode = $.getdata('imaotai__config__itemcode') || '10213' // 预约项
+var itemCode = $.getdata('imaotai__config__itemcode') || '10941' // 预约项
 var location = $.getdata('imaotai__config__location') || '' // 地址经纬度
 var address = $.getdata('imaotai__config__address') || '' // 详细地址
 var shopid = $.getdata('imaotai__config__shopid') || '' // 商铺id
@@ -33,9 +33,9 @@ var Message = '' // 消息内容
 // -----------------------------------------------------------------------------------------
 // TODO: 后续支持多品预约
 var itemMap = {
-    10213: '贵州茅台酒（癸卯兔年）',
+    10941: '贵州茅台酒（龙年）',
     2478: '贵州茅台酒（珍品）',
-    10214: '贵州茅台酒（癸卯兔年）x2',
+    10942: '贵州茅台酒（龙年）x2',
     10056: '53%vol 500ml 茅台1935'
 }
 !(async () => {
