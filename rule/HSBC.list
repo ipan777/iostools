@@ -1,0 +1,5 @@
+# NAME: HSBC
+# UPDATED: 2024-08-26 16:16:37
+HOST,http://ocsp.digicert.com,HSBC
+HOST-SUFFIX,hsbc.com.hk,HSBC
+HOST-SUFFIX,log-58144bf0.we-stats.com,HSBC
