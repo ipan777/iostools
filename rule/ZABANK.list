@@ -2,13 +2,8 @@
 # AUTHOR: ipan777
 # REPO: https://github.com/ipan777/rule
 # UPDATED: 2024-08-26 16:16:50
-# HOST-SUFFIX: 8
-# TOTAL: 8
-HOST-SUFFIX,appguard.za.group,ZABANK
-HOST-SUFFIX,integrate-appgw.zajourney.com,ZABANK
-HOST-SUFFIX,appmon-prd.zajourney.com,ZABANK
-HOST-SUFFIX,bankappgw.za.group,ZABANK
-HOST-SUFFIX,aim-abtesting-sdk.za.group,ZABANK
-HOST-SUFFIX,bank-stock.zafinsvc.com,ZABANK
-HOST-SUFFIX,offlineapp.za.group,ZABANK
-HOST-SUFFIX,i18n.za.group,ZABANK
+# HOST-SUFFIX: 3
+# TOTAL: 3
+HOST-SUFFIX,zajourney.com,ZABANK
+HOST-SUFFIX,zafinsvc.com,ZABANK
+HOST-SUFFIX,za.group,ZABANK
