@@ -1,6 +1,10 @@
 # NAME: HSBC
-# UPDATED: 2024-08-26 16:16:37
-HOST,ocsp.digicert.com,HSBC
-HOST,cdn.optimizely.com,HSBC
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2024-08-26 16:16:50
+# HOST-SUFFIX: 4
+# TOTAL: 4
+HOST-SUFFIX,ocsp.digicert.com,HSBC
+HOST-SUFFIX,cdn.optimizely.com,HSBC
 HOST-SUFFIX,hsbc.com.hk,HSBC
 HOST-SUFFIX,log-58144bf0.we-stats.com,HSBC
