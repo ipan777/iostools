@@ -6,5 +6,4 @@
 # TOTAL: 4
 HOST-SUFFIX,ocsp.digicert.com,BOCHK
 HOST-SUFFIX,bochk.com,BOCHK
-HOST-SUFFIX,bochk01.etnet.com.hk,BOCHK
-HOST-SUFFIX,bochk02.etnet.com.hk,BOCHK
+HOST-SUFFIX,etnet.com.hk,BOCHK
