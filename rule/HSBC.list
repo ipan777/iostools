@@ -7,5 +7,5 @@
 HOST-SUFFIX,cdn.optimizely.com,HSBC
 HOST-SUFFIX,hsbc.com.hk,HSBC
 HOST-SUFFIX,log-58144bf0.we-stats.com,HSBC
-HOST-SUFFIX,prod.ap-east-1.vam-hk.cloud1.vv1865.com
-HOST-SUFFIX,sy.idp.liveperson.net
+HOST-SUFFIX,prod.ap-east-1.vam-hk.cloud1.vv1865.com,HSBC
+HOST-SUFFIX,sy.idp.liveperson.net,HSBC
