@@ -1,0 +1,14 @@
+# NAME: ZABANK
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2024-08-26 16:16:50
+# HOST-SUFFIX: 8
+# TOTAL: 8
+HOST-SUFFIX,appguard.za.group:443,ZABANK
+HOST-SUFFIX,integrate-appgw.zajourney.com:443,ZABANK
+HOST-SUFFIX,appmon-prd.zajourney.com:443,ZABANK
+HOST-SUFFIX,bankappgw.za.group:443,ZABANK
+HOST-SUFFIX,aim-abtesting-sdk.za.group:443,ZABANK
+HOST-SUFFIX,bank-stock.zafinsvc.com:443,ZABANK
+HOST-SUFFIX,offlineapp.za.group:443,ZABANK
+HOST-SUFFIX,i18n.za.group:443,ZABANK
