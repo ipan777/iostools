@@ -3,3 +3,4 @@
 HOST,ocsp.digicert.com,HSBC
 HOST-SUFFIX,hsbc.com.hk,HSBC
 HOST-SUFFIX,log-58144bf0.we-stats.com,HSBC
+HOST,cdn.optimizely.com,HSBC
