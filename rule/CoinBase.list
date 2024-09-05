@@ -5,3 +5,4 @@
 
 HOST-SUFFIX,coinbase.com,coinbase
 HOST-SUFFIX,cloudfront.net,coinbase
+HOST-SUFFIX,coinbasecdn.net,coinbase
