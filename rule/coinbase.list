@@ -1,0 +1,7 @@
+# NAME: coinbase
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+
+
+Host-keyword,cainbase,coinbase
+Host-keyword,cloudfront,coinbase
