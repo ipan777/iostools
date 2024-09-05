@@ -3,5 +3,5 @@
 # REPO: https://github.com/ipan777/rule
 
 
-Host-keyword,coinbase,coinbase
-Host-keyword,cloudfront,coinbase
+HOST-SUFFIX,coinbase,coinbase
+HOST-SUFFIX,cloudfront,coinbase
