@@ -3,5 +3,5 @@
 # REPO: https://github.com/ipan777/rule
 
 
-HOST-SUFFIX,coinbase,coinbase
-HOST-SUFFIX,cloudfront,coinbase
+HOST-SUFFIX,coinbase.com:443,coinbase
+HOST-SUFFIX,cloudfront.net:443,coinbase
