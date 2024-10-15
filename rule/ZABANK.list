@@ -1,9 +1,0 @@
-# NAME: ZABANK
-# AUTHOR: ipan777
-# REPO: https://github.com/ipan777/rule
-# UPDATED: 2024-08-26 16:16:50
-# HOST-SUFFIX: 3
-# TOTAL: 3
-HOST-SUFFIX,zajourney.com,ZABANK
-HOST-SUFFIX,zafinsvc.com,ZABANK
-HOST-SUFFIX,za.group,ZABANK
