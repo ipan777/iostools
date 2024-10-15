@@ -1,0 +1,8 @@
+# NAME: BOCHK
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2024-08-26 16:16:50
+# HOST-SUFFIX: 2
+# TOTAL: 2
+HOST-SUFFIX,bochk.com,BOCHK
+HOST-SUFFIX,etnet.com.hk,BOCHK

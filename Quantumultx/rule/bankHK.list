@@ -1,0 +1,25 @@
+# NAME: BOCHK,HSBC,SCHK,ZABANK
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2024-08-26 16:16:50
+
+#中银香港
+HOST-SUFFIX,bochk.com
+HOST-SUFFIX,etnet.com.hk
+
+#汇丰香港
+HOST-SUFFIX,cdn.optimizely.com
+HOST-SUFFIX,hsbc.com.hk
+HOST-SUFFIX,log-58144bf0.we-stats.com
+HOST-SUFFIX,prod.ap-east-1.vam-hk.cloud1.vv1865.com
+HOST-SUFFIX,sy.idp.liveperson.net
+
+#渣打香港
+HOST-SUFFIX,sc.com,SCHK
+HOST-SUFFIX,standchartbank.data.adobedc.net
+HOST-SUFFIX,adobedtm.com
+
+#ZABANK
+HOST-SUFFIX,zajourney.com
+HOST-SUFFIX,zafinsvc.com
+HOST-SUFFIX,za.group

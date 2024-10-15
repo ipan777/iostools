@@ -1,0 +1,8 @@
+# NAME: coinbase
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+
+
+HOST-SUFFIX,coinbase.com,coinbase
+HOST-SUFFIX,cloudfront.net,coinbase
+HOST-SUFFIX,coinbasecdn.net,coinbase
