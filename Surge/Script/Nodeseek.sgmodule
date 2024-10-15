@@ -4,7 +4,7 @@
 #@Author: Sliverkiss
 
 [Script]
-NodeSeek = type=cron, cronexp="0 10 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js, timeout=180, wake-system=1
+NodeSeek = type=cron, cronexp="7 7 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js, timeout=180, wake-system=1
 
 #NodeSeek获取token = type=http-response, pattern=^https:\/\/www\.nodeseek\.com\/api\/account\/getInfo\/(.+)phone=1, script-path=https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js, requires-body=true, timeout=60
 
