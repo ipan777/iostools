@@ -1,2 +1,1 @@
-# crack-iOS-app
-包含一些自用的iOS app 解锁备份
+自用Surge、Quantumultx、Loon规则、脚本、模块。
