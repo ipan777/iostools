@@ -1,0 +1,6 @@
+#!name=Coinbase
+#!desc=proxy
+
+DOMAIN-SUFFIX,coinbase.com,coinbase
+DOMAIN-SUFFIX,cloudfront.net,coinbase
+DOMAIN-SUFFIX,coinbasecdn.net,coinbase

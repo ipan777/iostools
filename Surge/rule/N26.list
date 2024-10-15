@@ -1,0 +1,9 @@
+#!name=N26
+#!desc=proxy
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2024-08-26 16:16:50
+
+DOMAIN-KEYWORD,n26,n26
+DOMAIN-KEYWORD,tech26.de,n26
+DOMAIN-KEYWORD,number26.de,n26
