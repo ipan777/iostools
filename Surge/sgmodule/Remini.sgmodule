@@ -1,0 +1,8 @@
+#!name=App增强解锁
+#!desc=ReminiPro解锁
+
+[Script]
+ReminiProCrack = type=http-response, pattern=^https?:\/\/remini\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup$, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ReminiProCrack.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% remini.oracle.bendingspoonsapps.com
