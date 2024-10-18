@@ -1,0 +1,8 @@
+#!name=App增强解锁
+#!desc=薄荷健康破解vip
+
+[Script]
+bhh = type=http-response, pattern=https:\/\/(api|healthy|one|league)\.boohee\.com, script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/bhh.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% api.boohee.com, healthy.boohee.com, one.boohee.com, league.boohee.com
