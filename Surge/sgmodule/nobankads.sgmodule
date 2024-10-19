@@ -1,0 +1,35 @@
+[URL Rewrite]
+# > 广发银行
+# hostname = static.95508.com, mps.95508.com
+^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject
+^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject
+^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject
+^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/.+1125x2436 - reject
+
+# > 工商银行
+# hostname = v.icbc.com.cn
+# 如开启可自行添加主机名
+^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject
+
+# > 工银E生活
+# hostname = pv.elife.icbc.com.cn
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject
+
+# > 中信银行
+# hostname = wap.bank.ecitic.com, imcs.citicbank.com
+^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA - reject
+# 开屏广告
+^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|png) - reject
+^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} - reject
+^https?:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688|750.+1638|563.+1218) - reject
+
+# > 平安口袋银行
+# hostname = cdn.sdb.com.cn
+^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/general-banner - reject
+^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/dialog-normal - reject
+^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-recomend-content - reject
+# 信用卡-精彩活动模块
+#^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/four-rectangle-grid - reject
+
+[MITM]
+hostname = %APPEND% static.95508.com, mps.95508.com, v.icbc.com.cn, pv.elife.icbc.com.cn, cdn.sdb.com.cn, wap.bank.ecitic.com, imcs.citicbank.com
