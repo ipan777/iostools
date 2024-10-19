@@ -1,3 +1,6 @@
+#!name=银行去广告合集
+#!desc=自用银行去广告
+
 [URL Rewrite]
 # > 广发银行
 # hostname = static.95508.com, mps.95508.com
