@@ -1,6 +1,6 @@
+
 [rewrite_local]
-^https:\/\/act\.you\.163\.com\/act-attendance\/task\/list url script-request-body https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/WYYX/WYYX.js
-  
+^https:\/\/act\.you\.163\.com\/act-attendance\/task\/list url script-request-body https://raw.githubusercontent.com/ipan777/iostools/refs/heads/main/Quantumultx/rewrite/WYYX.js
 [MITM]
 hostname = act.you.163.com
 
