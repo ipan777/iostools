@@ -1,3 +1,8 @@
+[rewrite_local]
+^https:\/\/act\.you\.163\.com\/act-attendance\/task\/list url script-request-body https://raw.githubusercontent.com/ipan777/iostools/refs/heads/main/Quantumultx/rewrite/wyyx.js
+[MITM]
+hostname =act.you.163.com
+
 const $ = new Env('网易严选');
 let WYYX = ($.isNode() ? JSON.parse(process.env.WYYX) : JSON.parse($prefs.valueForKey("WYYX") || '[]')) || [];
 let cookie=''
