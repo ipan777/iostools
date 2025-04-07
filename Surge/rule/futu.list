@@ -1,0 +1,13 @@
+#!name=富途牛牛
+#!desc=direct
+# AUTHOR: ipan777
+# REPO: https://github.com/ipan777/rule
+# UPDATED: 2025-4-7 10:30:50
+
+#富途牛牛
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futusg.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,my.moomoo.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futunn.com
