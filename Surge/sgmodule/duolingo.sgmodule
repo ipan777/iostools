@@ -1,0 +1,17 @@
+#!name=多邻国 𝕏
+#!desc=对 多邻国 深度学习探索;
+#!openUrl=https://apps.apple.com/app/id570060128
+#!author=j4gm4g[https://j4gm4g.github.io]
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/0c/5f/df0c5f65-4c7c-8680-79f3-510ba742364a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/460x0w.webp
+#!date = 2025-10-00 00:00:00
+
+[Rule]
+DOMAIN-KEYWORD,duolingo,DIRECT
+
+[Script]
+http-response ^https?:\/\/(?:ios-api-[^.]+|api[^.]+)\.duolingo\.[a-z.]+\/.*\/users\/.*\?fields=subscriberLevel script-path=https://he2o.vercel.app//Resource/Script/Duo/level.js, requires-body=true, timeout=60, tag=等级
+http-response ^https?:\/\/(?:ios-api-[^.]+|api[^.]+)\.duolingo\.[a-z.]+\/.*\/users\/.*\/available-features.*$ script-path=https://he2o.vercel.app//Resource/Script/Duo/features.js, requires-body=true, timeout=60, tag=配置
+http-response ^https?:\/\/(?:ios-api-[^.]+|api[^.]+)\.duolingo\.[a-z.]+\/\d{4}-\d{1,2}-\d{1,2}\/batch script-path=https://he2o.vercel.app//Resource/Script/Duo/batch.js, requires-body=true, timeout=60, tag=信息
+
+[Mitm]
+hostname =  ios-api-*.duolingo.*,api*.duolingo.*
