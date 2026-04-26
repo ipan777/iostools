@@ -1,17 +1,33 @@
-#!name=富途牛牛
-#!desc=direct
-# AUTHOR: ipan777
-# REPO: https://github.com/ipan777/rule
-# UPDATED: 2025-4-7 10:30:50
-
-#富途牛牛
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futunnapi.com
+DOMAIN-SUFFIX,futunncdn.com
+DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futu-china.com
+DOMAIN-SUFFIX,futunn.hk
+DOMAIN-SUFFIX,cdn.futu5.com
+DOMAIN-SUFFIX,static.futu5.com
+DOMAIN-SUFFIX,app.futu5.com
+DOMAIN-SUFFIX,web.futu5.com
+DOMAIN-SUFFIX,api.futu5.com
+DOMAIN-SUFFIX,trade.futu5.com
+DOMAIN-SUFFIX,quote.futu5.com
+DOMAIN-SUFFIX,account.futu5.com
+DOMAIN-SUFFIX,push.futu5.com
+DOMAIN-SUFFIX,client.futu5.com
+DOMAIN-SUFFIX,openapi.futunn.com
+DOMAIN-SUFFIX,live.futunn.com
+DOMAIN-SUFFIX,market.futunn.com
+DOMAIN-SUFFIX,quoteapi.futunn.com
+DOMAIN-SUFFIX,cdn.futunn.com
+DOMAIN-SUFFIX,oss.futunn.com
 DOMAIN-SUFFIX,futusg.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,futuhn.com
-DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futustatic.com
-DOMAIN-SUFFIX,moomoo.com
+
 IP-CIDR,49.51.78.222/32
 IP-CIDR,124.156.233.21/32
 IP-CIDR,119.28.183.55/32
