@@ -28,6 +28,8 @@ DOMAIN-SUFFIX,futusg.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,futuhn.com
 DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,cloud.tencent.com
+DOMAIN-SUFFIX,im.qcloud.com
 
 # ===== 抓包补充（关键行情接口）=====
 DOMAIN-SUFFIX,api.futunn.com
@@ -48,4 +50,4 @@ IP-CIDR,119.28.0.0/16
 IP-CIDR,170.106.0.0/16
 IP-CIDR,101.32.0.0/16
 IP-CIDR,47.250.0.0/16
-
+IP-CIDR,119.91.245.1/24
