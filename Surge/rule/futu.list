@@ -1,13 +1,33 @@
-# ===== 原有规则（保留）=====
-DOMAIN-SUFFIX,futu5.com
+# ======== 域名规则（已去重） ========
+
+# --- 核心域名 ---
 DOMAIN-SUFFIX,futunn.com
-DOMAIN-SUFFIX,futunnapi.com
-DOMAIN-SUFFIX,futunncdn.com
-DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futuhk1.com
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,futuoa.com
+
+# --- Moomoo ---
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomooapp.com
+DOMAIN-SUFFIX,moomoobull.com
+DOMAIN-SUFFIX,moomoocn.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com
+
+# --- 扩展业务 ---
 DOMAIN-SUFFIX,futuholdings.com
 DOMAIN-SUFFIX,futu-china.com
 DOMAIN-SUFFIX,futunn.hk
+DOMAIN-SUFFIX,futunnapi.com
+DOMAIN-SUFFIX,futunncdn.com
+DOMAIN-SUFFIX,futusg.com
+DOMAIN-SUFFIX,fututrade.com
+
+# --- futu5 系列 ---
+DOMAIN-SUFFIX,futu5.com
 DOMAIN-SUFFIX,cdn.futu5.com
 DOMAIN-SUFFIX,static.futu5.com
 DOMAIN-SUFFIX,app.futu5.com
@@ -18,20 +38,16 @@ DOMAIN-SUFFIX,quote.futu5.com
 DOMAIN-SUFFIX,account.futu5.com
 DOMAIN-SUFFIX,push.futu5.com
 DOMAIN-SUFFIX,client.futu5.com
+
+# --- futunn 细分接口 ---
 DOMAIN-SUFFIX,openapi.futunn.com
 DOMAIN-SUFFIX,live.futunn.com
 DOMAIN-SUFFIX,market.futunn.com
 DOMAIN-SUFFIX,quoteapi.futunn.com
 DOMAIN-SUFFIX,cdn.futunn.com
 DOMAIN-SUFFIX,oss.futunn.com
-DOMAIN-SUFFIX,futusg.com
-DOMAIN-SUFFIX,fututrade.com
-DOMAIN-SUFFIX,futuhn.com
-DOMAIN-SUFFIX,futustatic.com
-DOMAIN-SUFFIX,cloud.tencent.com
-DOMAIN-SUFFIX,im.qcloud.com
 
-# ===== 抓包补充（关键行情接口）=====
+# --- 行情关键接口 ---
 DOMAIN-SUFFIX,api.futunn.com
 DOMAIN-SUFFIX,qquote.futunn.com
 DOMAIN-SUFFIX,cdnquote.futunn.com
@@ -39,15 +55,81 @@ DOMAIN-SUFFIX,stock-resource.futunn.com
 DOMAIN-SUFFIX,conf.futunn.com
 DOMAIN-SUFFIX,update.futunn.com
 
-# ===== 兜底（防止漏匹配）=====
+# --- 第三方依赖（必要） ---
+DOMAIN-SUFFIX,cloud.tencent.com
+DOMAIN-SUFFIX,im.qcloud.com
+
+# --- 深度链接 ---
+DOMAIN,futunn.app.link
+DOMAIN,futunn.test-app.link
+DOMAIN,futunn.onelink.me
+DOMAIN,moomoo.onelink.me
+
+# --- 其他 ---
+DOMAIN,www.airstarbank.com
+DOMAIN,www.lingpa.net
+
+# --- 兜底 ---
 DOMAIN-KEYWORD,futu
 DOMAIN-KEYWORD,moomoo
 
-# ===== IP规则（重点：已从 /32 扩大）=====
-IP-CIDR,49.51.0.0/24
-IP-CIDR,124.156.0.0/24
-IP-CIDR,119.28.0.0/24
-IP-CIDR,170.106.0.0/24
-IP-CIDR,101.32.0.0/24
-IP-CIDR,47.250.0.0/24
-IP-CIDR,119.91.245.1/24
+
+# ======== IP 规则（已合并 + 标准化） ========
+
+IP-CIDR,60.29.232.0/24,no-resolve
+
+IP-CIDR,1.14.216.170/32,no-resolve
+IP-CIDR,1.14.242.49/32,no-resolve
+IP-CIDR,1.14.242.168/32,no-resolve
+IP-CIDR,1.15.158.235/32,no-resolve
+
+IP-CIDR,43.132.106.6/32,no-resolve
+IP-CIDR,43.132.107.102/32,no-resolve
+IP-CIDR,43.135.64.109/32,no-resolve
+IP-CIDR,43.142.232.62/32,no-resolve
+IP-CIDR,43.153.191.241/32,no-resolve
+IP-CIDR,43.153.233.166/32,no-resolve
+IP-CIDR,43.153.233.212/32,no-resolve
+IP-CIDR,43.153.233.241/32,no-resolve
+
+IP-CIDR,49.51.78.83/32,no-resolve
+IP-CIDR,49.234.241.94/32,no-resolve
+
+IP-CIDR,101.32.198.103/32,no-resolve
+IP-CIDR,101.33.192.94/32,no-resolve
+
+IP-CIDR,106.55.67.68/32,no-resolve
+IP-CIDR,111.230.214.240/32,no-resolve
+IP-CIDR,115.159.18.59/32,no-resolve
+
+IP-CIDR,119.28.37.77/32,no-resolve
+IP-CIDR,119.28.37.206/32,no-resolve
+IP-CIDR,119.28.183.55/32,no-resolve
+IP-CIDR,119.28.218.81/32,no-resolve
+IP-CIDR,119.29.49.133/32,no-resolve
+IP-CIDR,119.91.243.37/32,no-resolve
+
+IP-CIDR,121.5.97.110/32,no-resolve
+IP-CIDR,121.5.99.180/32,no-resolve
+
+IP-CIDR,124.156.124.214/32,no-resolve
+
+IP-CIDR,129.226.79.239/32,no-resolve
+IP-CIDR,129.226.111.140/32,no-resolve
+
+IP-CIDR,162.14.3.250/32,no-resolve
+
+IP-CIDR,170.106.48.163/32,no-resolve
+IP-CIDR,170.106.48.217/32,no-resolve
+IP-CIDR,170.106.49.68/32,no-resolve
+
+
+# ======== 扩展网段（你原来放大的）========
+
+IP-CIDR,49.51.0.0/24,no-resolve
+IP-CIDR,124.156.0.0/24,no-resolve
+IP-CIDR,119.28.0.0/24,no-resolve
+IP-CIDR,170.106.0.0/24,no-resolve
+IP-CIDR,101.32.0.0/24,no-resolve
+IP-CIDR,47.250.0.0/24,no-resolve
+IP-CIDR,119.91.245.1/24,no-resolve
