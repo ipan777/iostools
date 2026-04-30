@@ -1,135 +1,152 @@
-# ======== 域名规则（已去重） ========
+# ======== User-Agent ========
+USER-AGENT,FutuNiuniu*,富途牛牛
 
-# --- 核心域名 ---
-DOMAIN-SUFFIX,futunn.com
-DOMAIN-SUFFIX,futuhk.com
-DOMAIN-SUFFIX,futuhn.com
-DOMAIN-SUFFIX,futuhk1.com
-DOMAIN-SUFFIX,futufin.com
-DOMAIN-SUFFIX,futustatic.com
-DOMAIN-SUFFIX,futuoa.com
+# ======== 域名规则（合并去重） ========
 
-# --- Moomoo ---
-DOMAIN-SUFFIX,moomoo.com
-DOMAIN-SUFFIX,moomooapp.com
-DOMAIN-SUFFIX,moomoobull.com
-DOMAIN-SUFFIX,moomoocn.com
-DOMAIN-SUFFIX,moomooequity.com
-DOMAIN-SUFFIX,moomootrustee.com
+# --- 核心 ---
+DOMAIN-SUFFIX,futunn.com,富途牛牛
+DOMAIN-SUFFIX,futuhk.com,富途牛牛
+DOMAIN-SUFFIX,futuhn.com,富途牛牛
+DOMAIN-SUFFIX,futuhk1.com,富途牛牛
+DOMAIN-SUFFIX,futufin.com,富途牛牛
+DOMAIN-SUFFIX,futustatic.com,富途牛牛
+DOMAIN-SUFFIX,futuoa.com,富途牛牛
 
-# --- 扩展业务 ---
-DOMAIN-SUFFIX,futuholdings.com
-DOMAIN-SUFFIX,futu-china.com
-DOMAIN-SUFFIX,futunn.hk
-DOMAIN-SUFFIX,futunnapi.com
-DOMAIN-SUFFIX,futunncdn.com
-DOMAIN-SUFFIX,futusg.com
-DOMAIN-SUFFIX,fututrade.com
+# --- moomoo ---
+DOMAIN-SUFFIX,moomoo.com,富途牛牛
+DOMAIN-SUFFIX,moomooapp.com,富途牛牛
+DOMAIN-SUFFIX,moomoobull.com,富途牛牛
+DOMAIN-SUFFIX,moomoocn.com,富途牛牛
+DOMAIN-SUFFIX,moomooequity.com,富途牛牛
+DOMAIN-SUFFIX,moomootrustee.com,富途牛牛
 
-# --- futu5 系列 ---
-DOMAIN-SUFFIX,futu5.com
-DOMAIN-SUFFIX,cdn.futu5.com
-DOMAIN-SUFFIX,static.futu5.com
-DOMAIN-SUFFIX,app.futu5.com
-DOMAIN-SUFFIX,web.futu5.com
-DOMAIN-SUFFIX,api.futu5.com
-DOMAIN-SUFFIX,trade.futu5.com
-DOMAIN-SUFFIX,quote.futu5.com
-DOMAIN-SUFFIX,account.futu5.com
-DOMAIN-SUFFIX,push.futu5.com
-DOMAIN-SUFFIX,client.futu5.com
+# --- 扩展 ---
+DOMAIN-SUFFIX,futuholdings.com,富途牛牛
+DOMAIN-SUFFIX,futu-china.com,富途牛牛
+DOMAIN-SUFFIX,futunn.hk,富途牛牛
+DOMAIN-SUFFIX,futunnapi.com,富途牛牛
+DOMAIN-SUFFIX,futunncdn.com,富途牛牛
+DOMAIN-SUFFIX,futusg.com,富途牛牛
+DOMAIN-SUFFIX,fututrade.com,富途牛牛
 
-# --- futunn 细分接口 ---
-DOMAIN-SUFFIX,openapi.futunn.com
-DOMAIN-SUFFIX,live.futunn.com
-DOMAIN-SUFFIX,market.futunn.com
-DOMAIN-SUFFIX,quoteapi.futunn.com
-DOMAIN-SUFFIX,cdn.futunn.com
-DOMAIN-SUFFIX,oss.futunn.com
+# --- futu5 ---
+DOMAIN-SUFFIX,futu5.com,富途牛牛
+DOMAIN-SUFFIX,cdn.futu5.com,富途牛牛
+DOMAIN-SUFFIX,static.futu5.com,富途牛牛
+DOMAIN-SUFFIX,app.futu5.com,富途牛牛
+DOMAIN-SUFFIX,web.futu5.com,富途牛牛
+DOMAIN-SUFFIX,api.futu5.com,富途牛牛
+DOMAIN-SUFFIX,trade.futu5.com,富途牛牛
+DOMAIN-SUFFIX,quote.futu5.com,富途牛牛
+DOMAIN-SUFFIX,account.futu5.com,富途牛牛
+DOMAIN-SUFFIX,push.futu5.com,富途牛牛
+DOMAIN-SUFFIX,client.futu5.com,富途牛牛
 
-# --- 行情关键接口 ---
-DOMAIN-SUFFIX,api.futunn.com
-DOMAIN-SUFFIX,qquote.futunn.com
-DOMAIN-SUFFIX,cdnquote.futunn.com
-DOMAIN-SUFFIX,stock-resource.futunn.com
-DOMAIN-SUFFIX,conf.futunn.com
-DOMAIN-SUFFIX,update.futunn.com
+# --- futunn接口 ---
+DOMAIN-SUFFIX,openapi.futunn.com,富途牛牛
+DOMAIN-SUFFIX,live.futunn.com,富途牛牛
+DOMAIN-SUFFIX,market.futunn.com,富途牛牛
+DOMAIN-SUFFIX,quoteapi.futunn.com,富途牛牛
+DOMAIN-SUFFIX,cdn.futunn.com,富途牛牛
+DOMAIN-SUFFIX,oss.futunn.com,富途牛牛
 
-# --- 第三方依赖（必要） ---
-DOMAIN-SUFFIX,cloud.tencent.com
-DOMAIN-SUFFIX,im.qcloud.com
+# --- 行情 ---
+DOMAIN-SUFFIX,api.futunn.com,富途牛牛
+DOMAIN-SUFFIX,qquote.futunn.com,富途牛牛
+DOMAIN-SUFFIX,cdnquote.futunn.com,富途牛牛
+DOMAIN-SUFFIX,stock-resource.futunn.com,富途牛牛
+DOMAIN-SUFFIX,conf.futunn.com,富途牛牛
+DOMAIN-SUFFIX,update.futunn.com,富途牛牛
 
-# --- 深度链接 ---
-DOMAIN,futunn.app.link
-DOMAIN,futunn.test-app.link
-DOMAIN,futunn.onelink.me
-DOMAIN,moomoo.onelink.me
+# --- 第三方 ---
+DOMAIN-SUFFIX,cloud.tencent.com,富途牛牛
+DOMAIN-SUFFIX,im.qcloud.com,富途牛牛
 
 # --- 其他 ---
-DOMAIN,www.airstarbank.com
-DOMAIN,www.lingpa.net
+DOMAIN,futunn.app.link,富途牛牛
+DOMAIN,futunn.test-app.link,富途牛牛
+DOMAIN,futunn.onelink.me,富途牛牛
+DOMAIN,moomoo.onelink.me,富途牛牛
+DOMAIN,www.airstarbank.com,富途牛牛
+DOMAIN,www.lingpa.net,富途牛牛
 
 # --- 兜底 ---
-DOMAIN-KEYWORD,futu
-DOMAIN-KEYWORD,moomoo
+DOMAIN-KEYWORD,futu,富途牛牛
+DOMAIN-KEYWORD,moomoo,富途牛牛
 
 
-# ======== IP 规则（已合并 + 标准化） ========
+# ======== IP规则（去重+合并） ========
 
-IP-CIDR,60.29.232.0/24,no-resolve
+IP-CIDR,60.29.232.0/24,富途牛牛,no-resolve
 
-IP-CIDR,1.14.216.170/32,no-resolve
-IP-CIDR,1.14.242.49/32,no-resolve
-IP-CIDR,1.14.242.168/32,no-resolve
-IP-CIDR,1.15.158.235/32,no-resolve
+IP-CIDR,1.14.216.170/32,富途牛牛,no-resolve
+IP-CIDR,1.14.242.49/32,富途牛牛,no-resolve
+IP-CIDR,1.14.242.168/32,富途牛牛,no-resolve
+IP-CIDR,1.15.158.235/32,富途牛牛,no-resolve
 
-IP-CIDR,43.132.106.6/32,no-resolve
-IP-CIDR,43.132.107.102/32,no-resolve
-IP-CIDR,43.135.64.109/32,no-resolve
-IP-CIDR,43.142.232.62/32,no-resolve
-IP-CIDR,43.153.191.241/32,no-resolve
-IP-CIDR,43.153.233.166/32,no-resolve
-IP-CIDR,43.153.233.212/32,no-resolve
-IP-CIDR,43.153.233.241/32,no-resolve
+IP-CIDR,42.193.128.62/32,富途牛牛,no-resolve
+IP-CIDR,43.132.106.6/32,富途牛牛,no-resolve
+IP-CIDR,43.132.107.102/32,富途牛牛,no-resolve
+IP-CIDR,43.135.64.109/32,富途牛牛,no-resolve
+IP-CIDR,43.135.82.18/32,富途牛牛,no-resolve
+IP-CIDR,43.142.232.62/32,富途牛牛,no-resolve
+IP-CIDR,43.145.30.28/32,富途牛牛,no-resolve
+IP-CIDR,43.153.191.241/32,富途牛牛,no-resolve
+IP-CIDR,43.153.233.166/32,富途牛牛,no-resolve
+IP-CIDR,43.153.233.212/32,富途牛牛,no-resolve
+IP-CIDR,43.153.233.241/32,富途牛牛,no-resolve
+IP-CIDR,43.159.4.28/32,富途牛牛,no-resolve
+IP-CIDR,43.159.5.43/32,富途牛牛,no-resolve
 
-IP-CIDR,49.51.78.83/32,no-resolve
-IP-CIDR,49.234.241.94/32,no-resolve
+IP-CIDR,49.51.78.83/32,富途牛牛,no-resolve
+IP-CIDR,49.234.241.65/32,富途牛牛,no-resolve
+IP-CIDR,49.234.241.94/32,富途牛牛,no-resolve
 
-IP-CIDR,101.32.198.103/32,no-resolve
-IP-CIDR,101.33.192.94/32,no-resolve
+IP-CIDR,81.71.131.203/32,富途牛牛,no-resolve
+IP-CIDR,81.71.250.202/32,富途牛牛,no-resolve
 
-IP-CIDR,106.55.67.68/32,no-resolve
-IP-CIDR,111.230.214.240/32,no-resolve
-IP-CIDR,115.159.18.59/32,no-resolve
+IP-CIDR,101.28.130.180/32,富途牛牛,no-resolve
+IP-CIDR,101.28.130.185/32,富途牛牛,no-resolve
+IP-CIDR,101.28.130.204/32,富途牛牛,no-resolve
+IP-CIDR,101.28.130.206/32,富途牛牛,no-resolve
+IP-CIDR,101.32.198.103/32,富途牛牛,no-resolve
+IP-CIDR,101.33.192.94/32,富途牛牛,no-resolve
 
-IP-CIDR,119.28.37.77/32,no-resolve
-IP-CIDR,119.28.37.206/32,no-resolve
-IP-CIDR,119.28.183.55/32,no-resolve
-IP-CIDR,119.28.218.81/32,no-resolve
-IP-CIDR,119.29.49.133/32,no-resolve
-IP-CIDR,119.91.243.37/32,no-resolve
+IP-CIDR,106.55.66.8/32,富途牛牛,no-resolve
+IP-CIDR,106.55.66.56/32,富途牛牛,no-resolve
+IP-CIDR,106.55.67.68/32,富途牛牛,no-resolve
 
-IP-CIDR,121.5.97.110/32,no-resolve
-IP-CIDR,121.5.99.180/32,no-resolve
+IP-CIDR,111.230.214.240/32,富途牛牛,no-resolve
+IP-CIDR,115.159.18.59/32,富途牛牛,no-resolve
 
-IP-CIDR,124.156.124.214/32,no-resolve
+IP-CIDR,119.28.37.77/32,富途牛牛,no-resolve
+IP-CIDR,119.28.37.206/32,富途牛牛,no-resolve
+IP-CIDR,119.28.183.55/32,富途牛牛,no-resolve
+IP-CIDR,119.28.218.81/32,富途牛牛,no-resolve
+IP-CIDR,119.29.49.133/32,富途牛牛,no-resolve
+IP-CIDR,119.91.243.37/32,富途牛牛,no-resolve
+IP-CIDR,119.91.245.125/32,富途牛牛,no-resolve
 
-IP-CIDR,129.226.79.239/32,no-resolve
-IP-CIDR,129.226.111.140/32,no-resolve
+IP-CIDR,121.5.97.110/32,富途牛牛,no-resolve
+IP-CIDR,121.5.99.180/32,富途牛牛,no-resolve
 
-IP-CIDR,162.14.3.250/32,no-resolve
+IP-CIDR,124.156.124.214/32,富途牛牛,no-resolve
 
-IP-CIDR,170.106.48.163/32,no-resolve
-IP-CIDR,170.106.48.217/32,no-resolve
-IP-CIDR,170.106.49.68/32,no-resolve
+IP-CIDR,129.226.79.239/32,富途牛牛,no-resolve
+IP-CIDR,129.226.111.140/32,富途牛牛,no-resolve
+
+IP-CIDR,162.14.3.250/32,富途牛牛,no-resolve
+
+IP-CIDR,170.106.48.163/32,富途牛牛,no-resolve
+IP-CIDR,170.106.48.217/32,富途牛牛,no-resolve
+IP-CIDR,170.106.49.68/32,富途牛牛,no-resolve
 
 
-# ======== 扩展网段（你原来放大的）========
-
-IP-CIDR,49.51.0.0/24,no-resolve
-IP-CIDR,124.156.0.0/24,no-resolve
-IP-CIDR,119.28.0.0/24,no-resolve
-IP-CIDR,170.106.0.0/24,no-resolve
-IP-CIDR,101.32.0.0/24,no-resolve
-IP-CIDR,47.250.0.0/24,no-resolve
-IP-CIDR,119.91.245.1/24,no-resolve
+# ======== 扩展网段 ========
+IP-CIDR,49.51.0.0/24,富途牛牛,no-resolve
+IP-CIDR,124.156.0.0/24,富途牛牛,no-resolve
+IP-CIDR,119.28.0.0/24,富途牛牛,no-resolve
+IP-CIDR,170.106.0.0/24,富途牛牛,no-resolve
+IP-CIDR,101.32.0.0/24,富途牛牛,no-resolve
+IP-CIDR,47.250.0.0/24,富途牛牛,no-resolve
+IP-CIDR,119.91.245.0/24,富途牛牛,no-resolve
